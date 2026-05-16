@@ -1,0 +1,9 @@
+/**:
+  ros__parameters:
+    wheel_radius: 0.05
+    wheel_base: 0.0921
+    track_width: 0.1593
+    max_wheel_speed: 10.0
+    wheel_signs: [1.0, 1.0, 1.0, 1.0]
+    cmd_timeout: 3600.0
+    control_rate: 30.0
