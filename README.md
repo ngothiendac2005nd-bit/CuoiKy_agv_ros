@@ -57,16 +57,7 @@ export ROS_DOMAIN_ID=69
 
 If you open a new terminal, run the three setup commands above again before launching or running nodes.
 
-## 4. Display Robot
-
-```bash
-cd ~/ros2_ws
-source install/setup.bash
-export ROS_DOMAIN_ID=69
-ros2 launch agv_ros display.launch.py
-```
-
-## 5. Mecanum Keyboard Controller
+## 4. Mecanum Keyboard Controller
 
 Use this command to control the AGV by keyboard:
 
@@ -77,7 +68,7 @@ export ROS_DOMAIN_ID=69
 ros2 run agv_ros mecanum_keyboard_teleop.py
 ```
 
-## 6. SLAM And Navigation Commands
+## 5. SLAM And Navigation Commands
 
 ### Map 1: Simple
 
@@ -189,6 +180,15 @@ export ROS_DOMAIN_ID=69
 ros2 launch agv_ros navigation_hexagon.launch.py
 ```
 
+## 6. Display Robot
+
+```bash
+cd ~/ros2_ws
+source install/setup.bash
+export ROS_DOMAIN_ID=69
+ros2 launch agv_ros display.launch.py
+```
+
 ## 7. Arm Controller
 
 ```bash
@@ -228,4 +228,3 @@ source install/setup.bash
 ```
 
 - Do not commit generated workspace folders such as `build/`, `install/`, and `log/`.
-
