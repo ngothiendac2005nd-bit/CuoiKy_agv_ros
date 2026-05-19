@@ -1,4 +1,4 @@
-# CuoiKy_agv_ros
+# agv_ros
 
 ROS 2 Humble package for AGV simulation, SLAM, navigation, mecanum keyboard control, arm control, camera view, and GPS topic checking.
 
